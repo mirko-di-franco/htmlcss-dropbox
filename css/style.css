@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Lato', sans-serif;
+}
 /* GENERALS */
 .container{
   width: 90%;
@@ -19,11 +22,13 @@
 }
 
 p{
-
+  font-size: 0.8rem;
+  padding-bottom: 30px;
 }
 
 h1{
-
+  font-size: 4rem;
+  padding-bottom: 30px;
 }
 
 h3{
@@ -34,8 +39,8 @@ h4{
 
 }
 
-.btn{
-
+.sizefont{
+  font-size: 0.9rem;
 }
 
 .flex{
@@ -65,18 +70,35 @@ h4{
   padding: 10px;
 }
 
+.py-20{
+  padding-top: 20px;
+}
+
+.py-30{
+  padding-top: 30px;
+}
+.btn{
+  background-color: #0061ff;
+  padding: 6px 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+
 /* HEADER */
 
 header{
   background-color: white;
-  height: 750px;
+  height: 700px;
   
 }
 .navbar{
-  background-color: blueviolet;
+  background-color: #ffffff;
   height: 60px;
   position: fixed;
   width: 100%;
+  align-items: center;
 }
 
 nav{
@@ -92,10 +114,14 @@ ul li{
 }
 
 ul li a{
-  color: grey;
+  color: #131313;
   text-decoration: none;
   padding: 15px;
   
+}
+
+ul li a img{
+  width: 100px;
 }
 
 .jumbo-title{
@@ -103,23 +129,33 @@ ul li a{
 }
 
 .box-jumbo{
-  background-color: rosybrown;
+  background-color: #b4d0e7;
   width: 500px;
   height: 300px;
   
 }
 
 .box-jumbo.right{
-  background-color: green;
+  background-color: #b4d0e7;
   width: 60%;
-  height: 600px;
+  height: 350px;
+  
 }
 
 .back{
   background-color: #b4d0e7;
+  height: 560px;
 }
 
+header i{
+  color: black;
+  font-size: 30px;
+}
 
+.box-jumbo.right img{
+  width: 800px;
+  padding-left: 60px;
+}
 /* MAIN */
 .row{
   background-color: bisque;
@@ -134,11 +170,7 @@ ul li a{
   
 }
 
-p{
-  border: 1px solid black;
-  width: 100%;
-  
-}
+
 
 span{
  
@@ -196,7 +228,7 @@ img{
 }
 
 .bb{
-  fill: red;
+  filter: invert(1);
 }
 
 .free{
