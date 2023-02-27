@@ -45,6 +45,14 @@ h4{
 .justify-content{
   justify-content: space-between;
 }
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
 .pxy-10{
   padding: 10px;
 }
@@ -126,5 +134,38 @@ span{
 
 h5{
   border: 1px solid black;
+}
+
+.card{
+  
+  width: calc(100% / 3);
+  background-color: darkcyan;
+  padding: 10px;
+  border: 1px soiid black;
+}
+
+img{
+  width: 100%;
+}
+
+.cont-square{
+  width: 20%;
+  background-color: red;
+}
+.square{
+  height: 50%;
+  width: 50%;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.ciao{
+  height: 300px;
+  width: 60%;
+  overflow: auto;
+}
+
+.no{
+  border: none;
 }
 /* FOOTER */
