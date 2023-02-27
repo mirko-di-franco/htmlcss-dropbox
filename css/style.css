@@ -3,3 +3,99 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* GENERALS */
+.container{
+  width: 90%;
+  margin: 0 auto;
+  height: 650px;
+  /* background-color: red; */
+}
+
+.cont{
+
+}
+
+p{
+
+}
+
+h1{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+.btn{
+
+}
+
+.flex{
+  display: flex;
+}
+
+/* HEADER */
+
+header{
+  background-color: white;
+  height: 750px;
+}
+.navbar{
+  background-color: blueviolet;
+  height: 60px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  color: grey;
+  text-decoration: none;
+  padding: 15px;
+  
+}
+
+.jumbo-title{
+  padding-top: 100px;
+}
+
+.box-jumbo{
+  background-color: rosybrown;
+  width: 500px;
+  height: 300px;
+  
+}
+
+.box-jumbo.right{
+  background-color: green;
+  width: 60%;
+  height: 600px;
+}
+
+.back{
+  background-color: #b4d0e7;
+}
+
+
+/* MAIN */
+
+
+
+
+
+
+/* FOOTER */
