@@ -46,12 +46,20 @@ h4{
   justify-content: space-between;
 }
 
+.space-around{
+  justify-content: space-around;
+}
+
 .wrap{
   flex-wrap: wrap;
 }
 
 .flex-end{
   justify-content: flex-end;
+}
+
+.relative{
+  position: relative;
 }
 .pxy-10{
   padding: 10px;
@@ -62,11 +70,15 @@ h4{
 header{
   background-color: white;
   height: 750px;
+  
 }
 .navbar{
   background-color: blueviolet;
   height: 60px;
+  position: fixed;
+  width: 100%;
 }
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -167,5 +179,28 @@ img{
 
 .no{
   border: none;
+}
+
+.square.green{
+  background-color: #a2d39b;
+  
+}
+
+.square.green img{
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: bisque;
+}
+
+.bb{
+  fill: red;
+}
+
+.free{
+  height: 250px;
+  background-color: #b4d0e7;
 }
 /* FOOTER */
