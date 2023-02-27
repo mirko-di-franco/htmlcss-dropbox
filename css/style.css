@@ -16,9 +16,9 @@ body{
 }
 
 .cont{
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
-  background-color: grey;
+  background-color: white;
 }
 
 p{
@@ -31,6 +31,9 @@ h1{
   padding-bottom: 30px;
 }
 
+h2{
+  
+}
 h3{
 
 }
@@ -77,6 +80,19 @@ h4{
 .py-30{
   padding-top: 30px;
 }
+
+.py-40{
+  padding-bottom: 40px;
+}
+
+.pbottom-20{
+  padding-bottom: 20px;
+}
+
+.pbottom-30{
+  padding-bottom: 30px;
+}
+
 .btn{
   background-color: #0061ff;
   padding: 6px 12px;
@@ -85,6 +101,9 @@ h4{
   font-size: 0.9rem;
 }
 
+span{
+  font-size: 0.9rem;
+}
 
 /* HEADER */
 
@@ -109,7 +128,7 @@ ul{
   list-style: none;
 }
 
-ul li{
+nav ul li{
   display: inline-block;
 }
 
@@ -159,6 +178,8 @@ header i{
 /* MAIN */
 .row{
   background-color: bisque;
+  border: 1px solid red;
+
 }
 .col{
   display: flex;
@@ -167,10 +188,31 @@ header i{
   height: 600px;
   padding: 10px;
   padding-bottom: 40px;
+  border: 1px solid blue;
+  flex-direction: column;
   
 }
 
+.col > p{
+  border: 2px solid #ee087b;
+}
 
+hr{
+  width: 70px;
+}
+
+
+.checkbox{
+  font-size: 0.9rem;
+  padding-right: 3px;
+}
+.checkbox.full{
+  color: #0061ff;
+}
+.checkbox.empty{
+  color: #e4e4e6;
+  padding-left: 10px;
+}
 
 span{
  
@@ -178,6 +220,26 @@ span{
 
 h5{
   border: 1px solid black;
+}
+
+.box{
+  width: 500px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.box-item{
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  padding-top: 120px;
+  padding-left: 30px;
+}
+
+.btn.black{
+  color: #090909;
+  border: 1px solid #090909;
+  background-color: white;
 }
 
 .card{
@@ -236,3 +298,12 @@ img{
   background-color: #b4d0e7;
 }
 /* FOOTER */
+
+.debug{
+  border: 1px solid cyan;
+}
+
+.block{
+  display: block;
+  text-align: center;
+}
