@@ -13,7 +13,9 @@
 }
 
 .cont{
-
+  width: 80%;
+  margin: 0 auto;
+  background-color: grey;
 }
 
 p{
@@ -38,6 +40,13 @@ h4{
 
 .flex{
   display: flex;
+}
+
+.justify-content{
+  justify-content: space-between;
+}
+.pxy-10{
+  padding: 10px;
 }
 
 /* HEADER */
@@ -92,10 +101,30 @@ ul li a{
 
 
 /* MAIN */
+.row{
+  background-color: bisque;
+}
+.col{
+  display: flex;
+  background-color: bisque;
+  width: calc(100% / 3);
+  height: 600px;
+  padding: 10px;
+  padding-bottom: 40px;
+  
+}
 
+p{
+  border: 1px solid black;
+  width: 100%;
+  
+}
 
+span{
+ 
+}
 
-
-
-
+h5{
+  border: 1px solid black;
+}
 /* FOOTER */
