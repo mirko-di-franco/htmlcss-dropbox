@@ -257,9 +257,9 @@ h5{
 .card{
 
   width: calc(100% / 3);
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
   padding: 10px;
-  border: 1px soiid black;
+  border: 4px soiid rgb(241, 20, 20);
 }
 
 img{
@@ -267,7 +267,19 @@ img{
 }
 
 .card img{
-  width: 80%;
+  width: 310px;
+}
+
+.item{
+  width: 310px;
+}
+
+.item h3{
+  padding-bottom: 20px;
+}
+
+.link-blue{
+  color: #005cff;
 }
 
 .cont-square{
