@@ -96,6 +96,9 @@ h4{
   padding-top: 80px;
 }
 
+.py-100{
+  padding-top: 100px;
+}
 
 .pbottom-20{
   padding-bottom: 20px;
@@ -387,9 +390,24 @@ img{
   color: #5d0023;
 }
 
-.inline{
-  display: inline;
+.faq{
+  height: 500px;
+  background-color: red;
 }
+
+.faq hr{
+  width: 100%;
+}
+
+.pd-faq{
+  padding: 20px 0px;
+  display: inline-block;
+}
+
+.faq i{
+  padding: 20px 40px;
+}
+
 /* FOOTER */
 footer{
   background-color: #000000;
@@ -430,8 +448,3 @@ footer{
   color: #e4e4e6;
 }
 
-.border{
-  border: 1px solid #d0d0d3;
-  border-top: none;
-  height: 750px;
-}
