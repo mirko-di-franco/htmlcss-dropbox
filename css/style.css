@@ -11,6 +11,7 @@ body{
 /* GENERALS */
 .container{
   width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   
   /* background-color: red; */
@@ -112,6 +113,12 @@ h4{
   font-size: 0.9rem;
 }
 
+.btn.sell{
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 6px 40px;
+}
+
 span{
   font-size: 0.9rem;
 }
@@ -138,6 +145,7 @@ nav{
 }
 ul{
   list-style: none;
+  
 }
 
 nav ul li{
@@ -169,13 +177,13 @@ ul li a img{
 .box-jumbo.right{
   background-color: #b4d0e7;
   width: 60%;
-  height: 350px;
+  max-height: 350px;
 
 }
 
 .back{
   background-color: #b4d0e7;
-  height: 560px;
+  max-height: 560px;
 }
 
 header i{
@@ -184,35 +192,47 @@ header i{
 }
 
 .box-jumbo.right img{
-  width: 800px;
+  max-width: 800px;
   padding-left: 60px;
 }
 /* MAIN */
-.row{
-  background-color: bisque;
-  border: 1px solid red;
 
-}
 .col{
   display: flex;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   width: calc(100% / 3);
-  height: 600px;
   padding: 10px;
   padding-bottom: 40px;
-  border: 1px solid blue;
   flex-direction: column;
-
 }
 
-.col > p{
-  border: 2px solid #ee087b;
+.col span, .row h5{
+  border: 1px solid #d0d0d3;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.border{
+  border: 1px solid #d0d0d3;
+  border-top: none;
+  height: 750px;
+}
+
+.bord{
+  border: 1px solid #d0d0d3;
+  border-top: none;
+}
+.sizefont li{
+  padding: 10px;
 }
 
 hr{
   width: 70px;
 }
 
+.check-blue i{
+  color: #0061ff;
+}
 
 .checkbox{
   font-size: 0.9rem;
@@ -226,13 +246,6 @@ hr{
   padding-left: 10px;
 }
 
-span{
-
-}
-
-h5{
-  border: 1px solid black;
-}
 
 .box{
   width: 500px;
@@ -267,11 +280,11 @@ img{
 }
 
 .card img{
-  width: 310px;
+  max-width: 310px;
 }
 
 .item{
-  width: 310px;
+  max-width: 310px;
 }
 
 .item h3{
@@ -287,8 +300,8 @@ img{
   background-color: red;
 }
 .square{
-  height: 50%;
-  width: 50%;
+  min-height: 50%;
+  min-width: 50%;
   background-color: green;
 }
 
@@ -411,15 +424,14 @@ footer{
 }
 
 /* !!!!!!!!!! */
-.debug{
-  border: 1px solid cyan;
-}
 
-.block{
-  display: block;
-  text-align: center;
-}
 
 .debugg{
   color: #e4e4e6;
+}
+
+.border{
+  border: 1px solid #d0d0d3;
+  border-top: none;
+  height: 750px;
 }
