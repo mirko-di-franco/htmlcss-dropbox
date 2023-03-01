@@ -507,6 +507,21 @@ img{
   margin-bottom: 100px;
 }
 
+.faq-answer p,
+.freccia-up{
+  display: none;
+}
+.question:hover{
+  cursor: help;
+}
+.question:hover .faq-answer p,
+.question:hover .freccia-up{
+  display: block;
+}
+
+.question:hover .freccia-down{
+  display: none;
+}
 
 /* FOOTER */
 footer{
