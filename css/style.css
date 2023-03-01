@@ -156,6 +156,22 @@ header{
   align-items: center;
 }
 
+.navbar li a:after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  display: block;
+  transition: all 0.3s ease;
+  bottom: 0;
+}
+
+.navbar ul li a:hover::after{
+  width: 100px;
+  height: 2px;
+  background-color: red;
+}
+
 nav{
   display: flex;
 }
